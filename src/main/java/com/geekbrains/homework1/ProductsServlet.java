@@ -35,7 +35,25 @@ public class ProductsServlet extends HttpServlet {
         String temp = String.format(
                 "<html>" +
                         "<head>" +
-                        "<style>table, th, td {border: 1px solid black;}</style>" +
+                        "<style>" +
+                        "table {" +
+                        "width: 50%%;" +
+                        "margin: auto;" +
+                        "border-collapse: collapse;" +
+                        "font-family: Arial, Helvetica, sans-serif;" +
+                        "}" +
+                        "th {" +
+                        "background-color: #04AA6D;" +
+                        "color: white;" +
+                        "text-align: left;" +
+                        "padding: 12px;" +
+                        "}" +
+                        "th, td {" +
+                        "border: 1px solid #ddd;" +
+                        "padding: 8px;" +
+                        "}" +
+
+                        "</style>" +
                         "</head>" +
                         "<body>" +
                         "<table>" +
